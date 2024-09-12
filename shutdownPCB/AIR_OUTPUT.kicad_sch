@@ -1,1631 +1,5374 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid cf433719-c931-4da3-8ef8-9ca4162a7268)
-
-  (paper "A3")
-
-  (lib_symbols
-    (symbol "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 4.445 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "BC816-25HVL-UniSA_Motorsport_Transistor" (at 4.445 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 0.635 -12.065 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 8.89 -1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BC816-25HVL-UniSA_Motorsport_Transistor_1_1"
-        (polyline
-          (pts
-            (xy -0.635 0.635)
-            (xy 1.27 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -0.635)
-            (xy 1.27 -2.54)
-            (xy 1.27 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 1.905)
-            (xy -0.635 -1.905)
-            (xy -0.635 -1.905)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -1.778)
-            (xy 0.508 -1.27)
-            (xy 1.016 -2.286)
-            (xy 0 -1.778)
-            (xy 0 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 0) (radius 2.8194)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -6.35 0 0) (length 5.715)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 1.27 -5.08 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 1.27 5.08 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "UniSA_Motorsport_Relay:APAN3103" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "K" (at 13.97 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "APAN3103" (at 11.43 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "UniSA_Motorsport_Relay:APAN3103" (at -1.27 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at -1.27 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Relay" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Signal Relay 3VDC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "APAN3103_1_1"
-        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start -8.255 1.905) (end -1.905 -1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 -1.905)
-            (xy -2.54 1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 -1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy -5.08 1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 0)
-            (xy 0 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.905 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.175 0)
-            (xy 3.81 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 3.175 3.81)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 5.08 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 2.54)
-            (xy 6.985 3.175)
-            (xy 7.62 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 -7.62 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 7.62 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 7.62 270) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -7.62 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "UniSA_Motorsport_Resistor:CRCW0805" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "CRCW0805" (at -2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 1.016 -0.254 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Resistance" "Give a E24 value" (at 5.08 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Voltage Rating" "150V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Power Rating" "125mW" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 1.27 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, US symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "CRCW0805_0_1"
-        (polyline
-          (pts
-            (xy 0 -2.286)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.286)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.762)
-            (xy 1.016 -1.143)
-            (xy 0 -1.524)
-            (xy -1.016 -1.905)
-            (xy 0 -2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 1.016 0.381)
-            (xy 0 0)
-            (xy -1.016 -0.381)
-            (xy 0 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.286)
-            (xy 1.016 1.905)
-            (xy 0 1.524)
-            (xy -1.016 1.143)
-            (xy 0 0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "CRCW0805_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 283.845 145.415) (diameter 0) (color 0 0 0 0)
-    (uuid 048af65d-1b67-4373-97ed-6ad7efdd359d)
-  )
-  (junction (at 297.815 165.735) (diameter 0) (color 0 0 0 0)
-    (uuid 0d0d642e-6a15-43fe-80ac-3f08b952da26)
-  )
-  (junction (at 106.045 221.615) (diameter 0) (color 0 0 0 0)
-    (uuid 2508473d-615d-425c-98d1-ac5014fab13e)
-  )
-  (junction (at 108.585 140.335) (diameter 0) (color 0 0 0 0)
-    (uuid 28824516-de87-42a4-9444-8b207dc41ba1)
-  )
-  (junction (at 120.015 241.935) (diameter 0) (color 0 0 0 0)
-    (uuid 302b6084-359b-473d-964a-3130d67e00bf)
-  )
-  (junction (at 286.385 64.135) (diameter 0) (color 0 0 0 0)
-    (uuid 3a98e892-9c68-43f9-bfa5-c68a4c7da20a)
-  )
-  (junction (at 111.125 64.135) (diameter 0) (color 0 0 0 0)
-    (uuid 525c2006-5382-47e1-aaaf-12e2b0d71561)
-  )
-  (junction (at 122.555 160.655) (diameter 0) (color 0 0 0 0)
-    (uuid 66cfaa16-1aee-4738-ab81-3eb26accf5b3)
-  )
-  (junction (at 300.355 84.455) (diameter 0) (color 0 0 0 0)
-    (uuid 977ca727-2012-4bf7-a850-d64a87576013)
-  )
-  (junction (at 125.095 84.455) (diameter 0) (color 0 0 0 0)
-    (uuid bee376e3-7028-480b-b0e2-ac33c13c0271)
-  )
-
-  (wire (pts (xy 120.015 197.485) (xy 120.015 189.865))
-    (stroke (width 0) (type default))
-    (uuid 05ce6f7e-b1b9-4832-ba37-37e669887c37)
-  )
-  (wire (pts (xy 106.045 229.235) (xy 106.045 221.615))
-    (stroke (width 0) (type default))
-    (uuid 07815062-1437-41ef-9647-ff5503b725a2)
-  )
-  (wire (pts (xy 95.885 140.335) (xy 88.265 140.335))
-    (stroke (width 0) (type default))
-    (uuid 088b8cba-0a1f-4bc2-b225-2523f409e71a)
-  )
-  (wire (pts (xy 108.585 147.955) (xy 108.585 140.335))
-    (stroke (width 0) (type default))
-    (uuid 0a6dfdaa-e781-4972-9f4a-ec3c0146e7a6)
-  )
-  (wire (pts (xy 106.045 221.615) (xy 112.395 221.615))
-    (stroke (width 0) (type default))
-    (uuid 1302cce4-6657-4c83-bee1-7ddc9572d473)
-  )
-  (wire (pts (xy 211.455 28.575) (xy 313.055 28.575))
-    (stroke (width 0) (type default))
-    (uuid 162b9b45-a96b-4da7-8087-d1e2ae376557)
-  )
-  (wire (pts (xy 125.095 69.215) (xy 125.095 84.455))
-    (stroke (width 0) (type default))
-    (uuid 16cd1aba-cdbf-40c1-ad57-b8ae8c72e12d)
-  )
-  (wire (pts (xy 211.455 229.235) (xy 130.175 229.235))
-    (stroke (width 0) (type default))
-    (uuid 181cca47-0e37-4f0b-a8ec-3d39222c7456)
-  )
-  (wire (pts (xy 297.815 150.495) (xy 297.815 165.735))
-    (stroke (width 0) (type default))
-    (uuid 2468bf11-902b-48b8-8836-36f5cbfc017e)
-  )
-  (wire (pts (xy 120.015 241.935) (xy 120.015 245.745))
-    (stroke (width 0) (type default))
-    (uuid 291eeb5a-b63c-4b9c-b7fa-fb3154c6749f)
-  )
-  (wire (pts (xy 108.585 160.655) (xy 122.555 160.655))
-    (stroke (width 0) (type default))
-    (uuid 2acc1aee-26e5-4acf-aa70-f502b1ca938d)
-  )
-  (wire (pts (xy 286.385 84.455) (xy 300.355 84.455))
-    (stroke (width 0) (type default))
-    (uuid 31c5912b-4c82-4510-8e2b-17182294fa53)
-  )
-  (wire (pts (xy 297.815 121.285) (xy 297.815 113.665))
-    (stroke (width 0) (type default))
-    (uuid 336d57c8-b652-4d4d-bfa5-38b4f6304914)
-  )
-  (wire (pts (xy 273.685 64.135) (xy 266.065 64.135))
-    (stroke (width 0) (type default))
-    (uuid 38f70995-2154-4dff-8f94-0fc5056f9822)
-  )
-  (wire (pts (xy 125.095 32.385) (xy 120.015 32.385))
-    (stroke (width 0) (type default))
-    (uuid 3ecf4a3e-8c54-4d85-a4ec-c0e23e8dc017)
-  )
-  (wire (pts (xy 286.385 64.135) (xy 281.305 64.135))
-    (stroke (width 0) (type default))
-    (uuid 3f9cc74d-2bb6-455b-a95f-81d116eaa293)
-  )
-  (wire (pts (xy 300.355 55.245) (xy 300.355 59.055))
-    (stroke (width 0) (type default))
-    (uuid 40d92d78-09c1-4221-b682-3f02438e72c7)
-  )
-  (wire (pts (xy 125.095 55.245) (xy 125.095 59.055))
-    (stroke (width 0) (type default))
-    (uuid 40e6dff7-5924-4433-8039-5ee219361da4)
-  )
-  (wire (pts (xy 283.845 153.035) (xy 283.845 145.415))
-    (stroke (width 0) (type default))
-    (uuid 41646243-6bc2-40b8-856c-6c67190c898d)
-  )
-  (wire (pts (xy 130.175 212.725) (xy 130.175 229.235))
-    (stroke (width 0) (type default))
-    (uuid 43c2c577-c665-4665-ad2c-345d96d1f3ec)
-  )
-  (wire (pts (xy 111.125 64.135) (xy 106.045 64.135))
-    (stroke (width 0) (type default))
-    (uuid 450c9f27-4519-4fd5-b99b-43f297ed4617)
-  )
-  (wire (pts (xy 50.165 28.575) (xy 137.795 28.575))
-    (stroke (width 0) (type default))
-    (uuid 49f1730d-0d82-4a75-9cc8-85a2e4b38c46)
-  )
-  (wire (pts (xy 307.975 180.975) (xy 362.585 180.975))
-    (stroke (width 0) (type default))
-    (uuid 4ab10b59-feff-4618-b164-1f8fa359d5e8)
-  )
-  (wire (pts (xy 108.585 140.335) (xy 103.505 140.335))
-    (stroke (width 0) (type default))
-    (uuid 506bacfa-441e-485e-8c99-a6df8b2cab2c)
-  )
-  (wire (pts (xy 122.555 160.655) (xy 122.555 164.465))
-    (stroke (width 0) (type default))
-    (uuid 50dce5a1-c76f-4c4d-aa46-83174d7be111)
-  )
-  (wire (pts (xy 120.015 226.695) (xy 120.015 241.935))
-    (stroke (width 0) (type default))
-    (uuid 52186802-6936-42b0-8211-94cd62f77fbf)
-  )
-  (wire (pts (xy 211.455 28.575) (xy 211.455 229.235))
-    (stroke (width 0) (type default))
-    (uuid 52c2fcf2-517a-4ff6-98bb-0f5c44444d54)
-  )
-  (wire (pts (xy 120.015 212.725) (xy 120.015 216.535))
-    (stroke (width 0) (type default))
-    (uuid 551da9a6-807b-4820-afd7-edc585d99d6e)
-  )
-  (wire (pts (xy 300.355 69.215) (xy 300.355 84.455))
-    (stroke (width 0) (type default))
-    (uuid 56f4d327-3edd-40c5-811d-23da3f649420)
-  )
-  (wire (pts (xy 111.125 64.135) (xy 117.475 64.135))
-    (stroke (width 0) (type default))
-    (uuid 5f37b643-4c5c-4f96-8287-937b204ec1cc)
-  )
-  (wire (pts (xy 297.815 113.665) (xy 292.735 113.665))
-    (stroke (width 0) (type default))
-    (uuid 60e7cf69-95be-4491-a794-f7ea06df215f)
-  )
-  (wire (pts (xy 297.815 165.735) (xy 297.815 169.545))
-    (stroke (width 0) (type default))
-    (uuid 64f238f4-17da-45a6-a87c-22bacf55831a)
-  )
-  (wire (pts (xy 313.055 28.575) (xy 313.055 40.005))
-    (stroke (width 0) (type default))
-    (uuid 6a9f9c5b-f561-444a-b835-05a4e431722b)
-  )
-  (wire (pts (xy 120.015 189.865) (xy 114.935 189.865))
-    (stroke (width 0) (type default))
-    (uuid 6c5dae6a-fbbe-41a4-aa09-42e4a01c0572)
-  )
-  (wire (pts (xy 286.385 64.135) (xy 292.735 64.135))
-    (stroke (width 0) (type default))
-    (uuid 6e9af2a0-1cc6-4790-b07e-8e88707909cb)
-  )
-  (wire (pts (xy 108.585 140.335) (xy 114.935 140.335))
-    (stroke (width 0) (type default))
-    (uuid 70734d64-0d76-46bd-96e3-8c68942c4a3a)
-  )
-  (wire (pts (xy 122.555 116.205) (xy 122.555 108.585))
-    (stroke (width 0) (type default))
-    (uuid 72702bc6-01f8-470e-9da9-2646abc24d9b)
-  )
-  (wire (pts (xy 286.385 71.755) (xy 286.385 64.135))
-    (stroke (width 0) (type default))
-    (uuid 73a920aa-39ea-4313-b600-3ee9b66cb018)
-  )
-  (wire (pts (xy 300.355 84.455) (xy 300.355 88.265))
-    (stroke (width 0) (type default))
-    (uuid 7803939c-9237-4923-b73e-0723895fbc8b)
-  )
-  (wire (pts (xy 106.045 241.935) (xy 120.015 241.935))
-    (stroke (width 0) (type default))
-    (uuid 7954ad25-8b92-4743-8405-9ddab7991016)
-  )
-  (wire (pts (xy 122.555 108.585) (xy 117.475 108.585))
-    (stroke (width 0) (type default))
-    (uuid 80748bff-31ab-46fb-8e7d-050b24330c20)
-  )
-  (wire (pts (xy 132.715 131.445) (xy 132.715 197.485))
-    (stroke (width 0) (type default))
-    (uuid 85636e44-569d-4e39-9ec6-36e5607cd871)
-  )
-  (wire (pts (xy 283.845 165.735) (xy 297.815 165.735))
-    (stroke (width 0) (type default))
-    (uuid 883ae88e-eb13-4b07-bdce-078216a41321)
-  )
-  (wire (pts (xy 111.125 79.375) (xy 111.125 84.455))
-    (stroke (width 0) (type default))
-    (uuid 92ae9ce6-b3d8-4527-905a-484b435940e5)
-  )
-  (wire (pts (xy 300.355 40.005) (xy 300.355 32.385))
-    (stroke (width 0) (type default))
-    (uuid a29f922b-3979-44d3-a380-f17c9e3ece79)
-  )
-  (wire (pts (xy 108.585 155.575) (xy 108.585 160.655))
-    (stroke (width 0) (type default))
-    (uuid a2cc1f1d-b302-4134-b5ee-ce18f358c7bc)
-  )
-  (wire (pts (xy 106.045 236.855) (xy 106.045 241.935))
-    (stroke (width 0) (type default))
-    (uuid a4c4bc9b-c1a8-44e8-ace7-2be48f147428)
-  )
-  (wire (pts (xy 300.355 32.385) (xy 295.275 32.385))
-    (stroke (width 0) (type default))
-    (uuid a8dbed7e-26b7-427c-8dbc-8f57902a6be5)
-  )
-  (wire (pts (xy 297.815 136.525) (xy 297.815 140.335))
-    (stroke (width 0) (type default))
-    (uuid a936ccec-974d-47ea-821d-6ecea1911ffb)
-  )
-  (wire (pts (xy 98.425 64.135) (xy 90.805 64.135))
-    (stroke (width 0) (type default))
-    (uuid a99ebe95-8f63-4069-af8c-1622b757ccef)
-  )
-  (wire (pts (xy 93.345 221.615) (xy 85.725 221.615))
-    (stroke (width 0) (type default))
-    (uuid ace505cc-286b-4a15-8c21-3ec289972fc3)
-  )
-  (wire (pts (xy 307.975 136.525) (xy 307.975 180.975))
-    (stroke (width 0) (type default))
-    (uuid b35d95d3-bed7-4011-9699-43dd4d7c08e2)
-  )
-  (wire (pts (xy 111.125 84.455) (xy 125.095 84.455))
-    (stroke (width 0) (type default))
-    (uuid b6b04ff1-86a9-4bd3-9859-e8fcc067d3f7)
-  )
-  (wire (pts (xy 122.555 145.415) (xy 122.555 160.655))
-    (stroke (width 0) (type default))
-    (uuid bd30dbcc-c3cd-4a15-8d92-c89681da7ac2)
-  )
-  (wire (pts (xy 135.255 55.245) (xy 135.255 116.205))
-    (stroke (width 0) (type default))
-    (uuid c02bd8f7-2aa4-4a4e-bb33-0e8d7505d78a)
-  )
-  (wire (pts (xy 310.515 55.245) (xy 310.515 121.285))
-    (stroke (width 0) (type default))
-    (uuid c489e04b-a3b4-4e8e-b1b7-f430303e2f66)
-  )
-  (wire (pts (xy 125.095 84.455) (xy 125.095 88.265))
-    (stroke (width 0) (type default))
-    (uuid cdce334a-d8a5-4ca3-bb38-e5145c1f6b0d)
-  )
-  (wire (pts (xy 137.795 28.575) (xy 137.795 40.005))
-    (stroke (width 0) (type default))
-    (uuid cf1855f0-0d07-443e-83c0-0b79cc070729)
-  )
-  (wire (pts (xy 283.845 145.415) (xy 278.765 145.415))
-    (stroke (width 0) (type default))
-    (uuid d1c694e6-ac6e-4320-9216-755a28d3b52a)
-  )
-  (wire (pts (xy 122.555 131.445) (xy 122.555 135.255))
-    (stroke (width 0) (type default))
-    (uuid d31db62f-dc46-446f-869c-6ac57b0f039c)
-  )
-  (wire (pts (xy 111.125 71.755) (xy 111.125 64.135))
-    (stroke (width 0) (type default))
-    (uuid d3a87d3b-83ba-4b4c-b2fd-0994f3551c92)
-  )
-  (wire (pts (xy 125.095 40.005) (xy 125.095 32.385))
-    (stroke (width 0) (type default))
-    (uuid da268cf8-6ef2-4f76-9a16-db04d287e12e)
-  )
-  (wire (pts (xy 286.385 79.375) (xy 286.385 84.455))
-    (stroke (width 0) (type default))
-    (uuid e65bbf38-cb08-4bfd-81c9-8ae2cf50b6a5)
-  )
-  (wire (pts (xy 271.145 145.415) (xy 263.525 145.415))
-    (stroke (width 0) (type default))
-    (uuid e786718a-0596-4678-8963-94e57ea165b9)
-  )
-  (wire (pts (xy 106.045 221.615) (xy 100.965 221.615))
-    (stroke (width 0) (type default))
-    (uuid eed924ba-a84d-4f53-8fb1-188fe2128c8f)
-  )
-  (wire (pts (xy 283.845 145.415) (xy 290.195 145.415))
-    (stroke (width 0) (type default))
-    (uuid f6cb8ebe-facc-40ad-adae-bf8af1164a75)
-  )
-  (wire (pts (xy 283.845 160.655) (xy 283.845 165.735))
-    (stroke (width 0) (type default))
-    (uuid fa81cc44-9f25-4f91-9374-79e5435469df)
-  )
-
-  (text "I hate that I have to do this but rules\nneed an independant system per non-driveable reset"
-    (at 248.285 205.105 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2cf9001f-2572-4633-b005-4e25f18d922c)
-  )
-  (text "Goes into the tractive system master switch, Provide\npower for AIR relays"
-    (at 343.535 179.07 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9af9dba4-daf8-40c8-8f02-4d84bc32b8a1)
-  )
-  (text "AMS" (at 103.505 125.095 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
-    (uuid bf2f8a40-aed9-457e-865a-484c06a17ed3)
-  )
-  (text "Driver Resettable" (at 99.695 48.895 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
-    (uuid c8e641ba-5ba1-4c76-9090-2860697e0afb)
-  )
-  (text "IMD" (at 103.505 206.375 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
-    (uuid f331e89d-ea66-4767-944e-df37f20270af)
-  )
-  (text "BSPD" (at 280.035 48.895 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
-    (uuid fa106328-527b-4478-a683-dfcbb898caf0)
-  )
-
-  (hierarchical_label "DRIVER_OUTPUT" (shape input) (at 90.805 64.135 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 03f9210a-1d0a-4ea3-bca4-248a27cbb39c)
-  )
-  (hierarchical_label "3.3V_0" (shape input) (at 117.475 108.585 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 04c725d3-bb96-4dd1-b44c-0cb6005fe4c8)
-  )
-  (hierarchical_label "Fix_BSPD" (shape input) (at 266.065 64.135 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 26d9218d-970c-48f1-b8ae-cbfcd4e50521)
-  )
-  (hierarchical_label "SAFTEY_IN" (shape input) (at 50.165 28.575 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2834d587-7661-4aeb-b36f-2c6b22f861ac)
-  )
-  (hierarchical_label "3.3V_2" (shape input) (at 295.275 32.385 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 30a8a390-a410-48ac-b40e-e9e167a77206)
-  )
-  (hierarchical_label "3.3V_PDOC" (shape input) (at 292.735 113.665 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7c51201c-0bf1-44d4-8faa-76a77dfc0b42)
-  )
-  (hierarchical_label "Fix_AMS" (shape input) (at 88.265 140.335 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 815b3e43-9b57-4715-b48d-69be19d3891b)
-  )
-  (hierarchical_label "SAFTEY_OUT" (shape input) (at 362.585 180.975 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 910c0027-13df-45dc-82b0-33d5c4770883)
-  )
-  (hierarchical_label "Fix_PDOC" (shape input) (at 263.525 145.415 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid accaba96-4a04-4053-896e-694868edb2de)
-  )
-  (hierarchical_label "3.3V" (shape input) (at 120.015 32.385 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d7f03cb3-2ff7-4707-a9fb-dcea1ac1d967)
-  )
-  (hierarchical_label "Fix_IMD" (shape input) (at 85.725 221.615 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e2849987-57f2-4da8-93d9-bda07d8fa4e1)
-  )
-  (hierarchical_label "3.3V_1" (shape input) (at 114.935 189.865 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ebbba7e7-234b-48c4-8dfe-77af3585b4e5)
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 274.955 145.415 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 06ffd5c8-12a0-4a24-8a91-47556ec3f3ad)
-    (property "Reference" "R65" (at 274.955 137.922 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CRCW0805" (at 274.955 142.875 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 274.701 146.431 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 274.955 145.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10K" (at 274.955 142.5448 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "150V" (at 274.955 145.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 274.955 145.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 274.955 146.685 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ebe7f7cc-3f38-4201-803e-1cf3f9040c21))
-    (pin "2" (uuid f66fc442-6559-49f4-92a1-3afaca9de023))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R65") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R120") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 283.845 156.845 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0a03c9ee-2f67-4108-9bbd-41a5108896af)
-    (property "Reference" "R76" (at 285.5722 154.5336 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CRCW0805" (at 281.305 156.845 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 284.861 157.099 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 283.845 156.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "100K" (at 285.5722 159.1564 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage Rating" "150V" (at 283.845 156.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 283.845 156.845 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 285.115 156.845 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6f600362-d56b-4f71-9ad2-c84bbcc12fa9))
-    (pin "2" (uuid d6b79eb4-b643-429a-a3d4-98223de04e02))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R76") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R122") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 120.015 245.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 11d495ca-25c0-4304-9891-fbd1e2ebebe1)
-    (property "Reference" "#PWR0116" (at 120.015 252.095 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 120.142 250.1392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.015 245.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.015 245.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7e6c0cbf-d9ac-4ab6-b9c6-006e31e50f1d))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "#PWR0116") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "#PWR063") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor") (at 299.085 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 15cbb151-8ccb-4426-a70b-02d58f4b60e4)
-    (property "Reference" "Q9" (at 302.641 62.9666 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BC816-25HVL" (at 302.641 65.278 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 299.72 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf" (at 307.975 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88102f0b-c6b9-4b64-9dbd-d0eff775450f))
-    (pin "2" (uuid c93d2c41-745e-4a33-bb76-b80ee45500fb))
-    (pin "3" (uuid 61fd1702-03c1-45e2-8011-1e7b42f43a32))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "Q9") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "Q11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Relay:APAN3103") (at 130.175 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 168f1da5-13a6-4d3c-9932-8836f2946e31)
-    (property "Reference" "K3" (at 142.24 46.3549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "APAN3103" (at 142.24 48.8949 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_Others:APAN3103" (at 128.905 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at 128.905 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 20ea55bf-e67d-4cdc-b586-226fb55ac470))
-    (pin "2" (uuid 8a5114b9-d9ed-4d55-91bb-dbbc4ae117ab))
-    (pin "3" (uuid 48400c9d-a373-4224-8f6e-cfb883aeef83))
-    (pin "4" (uuid 911b2a85-66f7-4b3b-a819-1a7c6d31e42e))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "K3") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "K3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 99.695 140.335 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 20c7eb99-b8c2-40d7-b127-e2a515da47fe)
-    (property "Reference" "R60" (at 99.695 132.842 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CRCW0805" (at 99.695 137.795 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 99.441 141.351 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 99.695 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10K" (at 99.695 137.4648 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "150V" (at 99.695 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 99.695 140.335 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 99.695 141.605 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cee093ec-e3fa-4a52-9171-88a01371345c))
-    (pin "2" (uuid 8bcb85e6-cd54-4e2e-8032-f4166cd2b1ac))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R60") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R111") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor") (at 121.285 140.335 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 21fb7868-7d67-401c-b082-ac0bf8004ea2)
-    (property "Reference" "Q6" (at 124.841 139.1666 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BC816-25HVL" (at 124.841 141.478 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 121.92 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf" (at 130.175 141.605 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 90402570-89a9-4958-8684-22acbfc0bb80))
-    (pin "2" (uuid 70a431b5-d08f-4659-9bf0-9e6900da974f))
-    (pin "3" (uuid 201a359a-663f-459a-92ff-d107e01bbf91))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "Q6") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "Q7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 122.555 164.465 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3596eb12-9b3b-4c85-81df-25a43bcd4aa0)
-    (property "Reference" "#PWR0117" (at 122.555 170.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 122.682 168.8592 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 122.555 164.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 122.555 164.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 39aeaa5b-8caf-4c8f-b544-9394258edc92))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "#PWR0117") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "#PWR062") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 97.155 221.615 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 378a55a4-920f-4e1b-a8d4-dd3ecc8dcdd2)
-    (property "Reference" "R59" (at 97.155 214.122 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CRCW0805" (at 97.155 219.075 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 96.901 222.631 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 97.155 221.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10K" (at 97.155 218.7448 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "150V" (at 97.155 221.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 97.155 221.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 97.155 222.885 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d559f987-a5fd-4ef3-a4dd-36587b003699))
-    (pin "2" (uuid bfb1208e-982b-48e7-bfb8-a0550c4236f4))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R59") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R112") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor") (at 296.545 145.415 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 38ec43a8-619b-422e-894e-cda31f8abcb0)
-    (property "Reference" "Q8" (at 300.101 144.2466 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BC816-25HVL" (at 300.101 146.558 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 297.18 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf" (at 305.435 146.685 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 91c3088c-0abe-40db-8949-57c4dffb800c))
-    (pin "2" (uuid 711b102f-9fec-41e8-a1e4-101323f1ee03))
-    (pin "3" (uuid d96d6867-f0ad-4b53-b45d-c44f1065d0d2))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "Q8") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "Q12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor") (at 123.825 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4291bbb0-1e67-4147-af70-bd244c78d9f2)
-    (property "Reference" "Q7" (at 127.381 62.9666 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BC816-25HVL" (at 127.381 65.278 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 124.46 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf" (at 132.715 65.405 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 79ea5424-f94b-4d0f-884e-04f9b876ec49))
-    (pin "2" (uuid 85260c10-2327-4a27-ab51-168efc769052))
-    (pin "3" (uuid 6ff15a86-212b-46ef-b044-46ad09791b1f))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "Q7") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "Q2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 300.355 88.265 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5622cbb1-3b0f-4e30-99ba-11bd0c0ac367)
-    (property "Reference" "#PWR0129" (at 300.355 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 300.482 92.6592 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 300.355 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 300.355 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d6104da0-c4ac-4035-bbe1-7bfb745fc360))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "#PWR0129") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "#PWR064") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 106.045 233.045 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 73b8ab05-9da2-4b2d-a3ac-2c1f8f26eecc)
-    (property "Reference" "R62" (at 107.7722 230.7336 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CRCW0805" (at 103.505 233.045 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 107.061 233.299 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 106.045 233.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "100K" (at 107.7722 235.3564 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage Rating" "150V" (at 106.045 233.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 106.045 233.045 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 107.315 233.045 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4175393a-522c-47a4-9bd7-3cb802bb88d2))
-    (pin "2" (uuid 3a34029b-0ee4-4ea2-b306-c23c67a46830))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R62") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R114") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 125.095 88.265 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7f2f6cce-62e4-49d9-965c-e2e72ddccabb)
-    (property "Reference" "#PWR0118" (at 125.095 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 125.222 92.6592 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 125.095 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.095 88.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid df9d2bf3-37c1-4644-95b5-f73bf45191b0))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "#PWR0118") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "#PWR068") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Relay:APAN3103") (at 125.095 205.105 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 819523e7-9d88-4246-b40a-a7fcb491aaba)
-    (property "Reference" "K1" (at 137.16 203.8349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "APAN3103" (at 137.16 206.3749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_Others:APAN3103" (at 123.825 188.595 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at 123.825 188.595 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10a3ad6b-a7e9-4abe-ada6-42d857115432))
-    (pin "2" (uuid 68df33fb-3ae3-47b2-b77c-a1f559e805eb))
-    (pin "3" (uuid a35a91db-743d-45e3-ae7f-8dc36f6c844e))
-    (pin "4" (uuid 92799837-fdc8-4447-ad8d-1f8558db0b15))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "K1") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "K1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor") (at 118.745 221.615 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a6803119-5b4a-4004-941c-49b615977105)
-    (property "Reference" "Q5" (at 122.301 220.4466 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BC816-25HVL" (at 122.301 222.758 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3" (at 119.38 233.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf" (at 127.635 222.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1fe7fbb4-c09d-429b-a095-16cba807744d))
-    (pin "2" (uuid 7b15e488-0379-48b5-9064-4a788da40ae2))
-    (pin "3" (uuid 510dde10-bc8d-403b-a1c5-d9c29f804d89))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "Q5") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "Q8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Relay:APAN3103") (at 305.435 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aa3bd9ee-bdd8-4653-b9f6-4666e7b199dc)
-    (property "Reference" "K5" (at 317.5 46.3549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "APAN3103" (at 317.5 48.8949 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_Others:APAN3103" (at 304.165 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at 304.165 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 323b1216-5dbb-4fc5-9120-89f4789e3fb5))
-    (pin "2" (uuid 45e50ff7-9225-4baf-b177-c79a91703e69))
-    (pin "3" (uuid 6714e7e8-a201-47c2-b5ac-2af4ab39644d))
-    (pin "4" (uuid a176f641-6abe-44b6-96bc-eeba033bdee0))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "K5") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "K5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 102.235 64.135 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid afae2592-f559-49db-8faf-39c2904be8c6)
-    (property "Reference" "R61" (at 102.235 56.642 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CRCW0805" (at 102.235 61.595 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 101.981 65.151 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 102.235 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10K" (at 102.235 61.2648 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "150V" (at 102.235 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 102.235 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 102.235 65.405 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 705db908-99a4-499b-b88d-b75386c82988))
-    (pin "2" (uuid 8f11a7a8-6f95-4327-be1d-9e65f22cd573))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R61") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R48") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Relay:APAN3103") (at 127.635 123.825 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b77cc399-6b67-4581-b266-21bbb690ffc5)
-    (property "Reference" "K2" (at 139.7 122.5549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "APAN3103" (at 139.7 125.0949 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_Others:APAN3103" (at 126.365 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at 126.365 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f7d1eb43-f7bc-4345-910f-2fe9e59bdd25))
-    (pin "2" (uuid abac7336-05f9-435b-8a76-9cd336d71bef))
-    (pin "3" (uuid 452fd2df-6e12-48a9-99fd-ed566a0634ff))
-    (pin "4" (uuid 4afa02fb-cd8b-431c-be24-556df265c20c))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "K2") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "K3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 111.125 75.565 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d0f2cb4f-f999-4460-a128-660ded5e192d)
-    (property "Reference" "R64" (at 112.8522 73.2536 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CRCW0805" (at 108.585 75.565 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 112.141 75.819 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 111.125 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "100K" (at 112.8522 77.8764 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage Rating" "150V" (at 111.125 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 111.125 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 112.395 75.565 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb597c9f-b4e0-4f55-8871-80fc3fe562e5))
-    (pin "2" (uuid 45345f79-e6a4-48d6-9dc4-256b4a88a912))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R64") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R49") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 297.815 169.545 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e3ebb1fb-a398-419a-a934-4742dee56549)
-    (property "Reference" "#PWR0119" (at 297.815 175.895 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 297.942 173.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 297.815 169.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 297.815 169.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2004921-9502-433c-b6f7-fb7a5be05d5c))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "#PWR0119") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "#PWR065") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 286.385 75.565 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e8514640-df73-4809-8a77-b554bcdd7724)
-    (property "Reference" "R77" (at 288.1122 73.2536 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CRCW0805" (at 283.845 75.565 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 287.401 75.819 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 286.385 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "100K" (at 288.1122 77.8764 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage Rating" "150V" (at 286.385 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 286.385 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 287.655 75.565 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49d24a0b-e4fd-4180-902e-85dcf118c8f5))
-    (pin "2" (uuid 2b894e7d-b5a2-4ccf-8694-4e65ed999e59))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R77") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R121") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 108.585 151.765 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid eba46d3a-a5be-43d1-ac4a-3cda21372763)
-    (property "Reference" "R63" (at 110.3122 149.4536 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CRCW0805" (at 106.045 151.765 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 109.601 152.019 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 108.585 151.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "100K" (at 110.3122 154.0764 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Voltage Rating" "150V" (at 108.585 151.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 108.585 151.765 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 109.855 151.765 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d47bd543-7d72-45c1-a6b7-7eda79e86fad))
-    (pin "2" (uuid 19a29e85-e414-4b63-9fcf-b555d55254fb))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R63") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R113") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Relay:APAN3103") (at 302.895 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f2d871ee-135f-4f6b-b96b-2f0a628f27ac)
-    (property "Reference" "K4" (at 314.96 127.6349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "APAN3103" (at 314.96 130.1749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "UniSA_Motorsport_Others:APAN3103" (at 301.625 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp" (at 301.625 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 32b9f582-9be8-4bfa-b667-cf0f15a3c2fb))
-    (pin "2" (uuid e1a81ee9-cfbc-4917-87ca-122c75ec6440))
-    (pin "3" (uuid 861cc76a-3661-4832-981f-60c2199cb882))
-    (pin "4" (uuid 7e34cba5-fd8b-4477-938b-163ca4c2f542))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "K4") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "K4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UniSA_Motorsport_Resistor:CRCW0805") (at 277.495 64.135 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd6cb979-888a-4471-bcc5-a6197dda218f)
-    (property "Reference" "R66" (at 277.495 56.642 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "CRCW0805" (at 277.495 61.595 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "UniSA_Motorsport_Resistor:0805" (at 277.241 65.151 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" (at 277.495 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Resistance" "10K" (at 277.495 61.2648 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Voltage Rating" "150V" (at 277.495 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Power Rating" "125mW" (at 277.495 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes" (at 277.495 65.405 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a55a4825-7e0c-471f-a0ad-587b4f693ccd))
-    (pin "2" (uuid 80149c47-7046-4221-a386-d31284a20f57))
-    (instances
-      (project "shutdownPCB"
-        (path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
-          (reference "R66") (unit 1)
-        )
-      )
-      (project "Safety Circuit"
-        (path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
-          (reference "R119") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cf433719-c931-4da3-8ef8-9ca4162a7268")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.445 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC816-25HVL-UniSA_Motorsport_Transistor"
+				(at 4.445 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+				(at 0.635 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC816-25HVL-UniSA_Motorsport_Transistor_1_1"
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.715)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "UniSA_Motorsport_Diode:1N4148W_RHG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W RHG"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+				(at 0 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flyback diode"
+				(at -0.508 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Flyback diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_RHG_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_RHG_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "UniSA_Motorsport_Relay:APAN3103"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 13.97 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APAN3103"
+				(at 11.43 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "UniSA_Motorsport_Relay:APAN3103"
+				(at -1.27 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+				(at -1.27 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Signal Relay 3VDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Relay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APAN3103_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "UniSA_Motorsport_Resistor:CRCW0805"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CRCW0805"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "Give a E24 value"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "150V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Rating" "125mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW0805_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 283.845 145.415)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048af65d-1b67-4373-97ed-6ad7efdd359d")
+	)
+	(junction
+		(at 297.815 165.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d0d642e-6a15-43fe-80ac-3f08b952da26")
+	)
+	(junction
+		(at 122.555 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "210d0f51-ffec-4def-8aad-f018382a715e")
+	)
+	(junction
+		(at 106.045 221.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2508473d-615d-425c-98d1-ac5014fab13e")
+	)
+	(junction
+		(at 108.585 140.335)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28824516-de87-42a4-9444-8b207dc41ba1")
+	)
+	(junction
+		(at 120.015 241.935)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "302b6084-359b-473d-964a-3130d67e00bf")
+	)
+	(junction
+		(at 286.385 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a98e892-9c68-43f9-bfa5-c68a4c7da20a")
+	)
+	(junction
+		(at 120.015 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "408dda12-275a-41ff-9153-0a0d253fb178")
+	)
+	(junction
+		(at 125.095 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4092c8d2-b692-4d5c-9e4e-3eba764d52da")
+	)
+	(junction
+		(at 111.125 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525c2006-5382-47e1-aaaf-12e2b0d71561")
+	)
+	(junction
+		(at 135.255 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e0c693-79e7-4e80-9390-3e39b0a02e92")
+	)
+	(junction
+		(at 122.555 160.655)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66cfaa16-1aee-4738-ab81-3eb26accf5b3")
+	)
+	(junction
+		(at 122.555 133.985)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d705dd-085d-43eb-ac90-4de7298eac20")
+	)
+	(junction
+		(at 297.815 117.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b9d309-d47c-4bd1-9c14-13e49bed8a4b")
+	)
+	(junction
+		(at 300.355 84.455)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977ca727-2012-4bf7-a850-d64a87576013")
+	)
+	(junction
+		(at 297.815 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b590bc6-09e3-4ef0-992b-897f30b00982")
+	)
+	(junction
+		(at 132.715 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a400bba3-f37e-485e-a472-1b637146a34d")
+	)
+	(junction
+		(at 300.355 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ea6669-003e-4dd1-ac78-d6afb999f390")
+	)
+	(junction
+		(at 120.015 215.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb3f7082-7093-4ed2-80cc-0ec9af2f1914")
+	)
+	(junction
+		(at 125.095 84.455)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bee376e3-7028-480b-b0e2-ac33c13c0271")
+	)
+	(junction
+		(at 307.975 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e7d2d4-046f-4af3-a644-f158e341eab3")
+	)
+	(junction
+		(at 310.515 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caa0402d-868e-4c93-89c6-932a88d8eac7")
+	)
+	(junction
+		(at 130.175 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6509cae-dba7-4457-b8b7-750dce8a7719")
+	)
+	(junction
+		(at 125.095 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb661fb-0a13-43ce-8c8b-441734bed5aa")
+	)
+	(junction
+		(at 300.355 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ce55a2-27f8-4fcc-b765-f224ba93c4c0")
+	)
+	(wire
+		(pts
+			(xy 120.015 197.485) (xy 120.015 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ce6f7e-b1b9-4832-ba37-37e669887c37")
+	)
+	(wire
+		(pts
+			(xy 106.045 229.235) (xy 106.045 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07815062-1437-41ef-9647-ff5503b725a2")
+	)
+	(wire
+		(pts
+			(xy 95.885 140.335) (xy 88.265 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088b8cba-0a1f-4bc2-b225-2523f409e71a")
+	)
+	(wire
+		(pts
+			(xy 108.585 147.955) (xy 108.585 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6dfdaa-e781-4972-9f4a-ec3c0146e7a6")
+	)
+	(wire
+		(pts
+			(xy 106.045 221.615) (xy 112.395 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1302cce4-6657-4c83-bee1-7ddc9572d473")
+	)
+	(wire
+		(pts
+			(xy 132.715 148.59) (xy 136.525 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e78a8e-e268-49db-98b3-64413eff6651")
+	)
+	(wire
+		(pts
+			(xy 211.455 28.575) (xy 313.055 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162b9b45-a96b-4da7-8087-d1e2ae376557")
+	)
+	(wire
+		(pts
+			(xy 125.095 69.215) (xy 125.095 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cd1aba-cdbf-40c1-ad57-b8ae8c72e12d")
+	)
+	(wire
+		(pts
+			(xy 211.455 229.235) (xy 130.175 229.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181cca47-0e37-4f0b-a8ec-3d39222c7456")
+	)
+	(wire
+		(pts
+			(xy 282.575 117.475) (xy 297.815 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1d2741-59ab-40a8-94d4-e3d23bdaf90e")
+	)
+	(wire
+		(pts
+			(xy 297.815 150.495) (xy 297.815 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2468bf11-902b-48b8-8836-36f5cbfc017e")
+	)
+	(wire
+		(pts
+			(xy 109.855 43.18) (xy 109.855 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b4b470-c48d-4a4d-97f3-eda73e78007e")
+	)
+	(wire
+		(pts
+			(xy 120.015 241.935) (xy 120.015 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291eeb5a-b63c-4b9c-b7fa-fb3154c6749f")
+	)
+	(wire
+		(pts
+			(xy 108.585 160.655) (xy 122.555 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acc1aee-26e5-4acf-aa70-f502b1ca938d")
+	)
+	(wire
+		(pts
+			(xy 122.555 133.985) (xy 122.555 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afa5069-42e8-433f-a236-84eedea3d50d")
+	)
+	(wire
+		(pts
+			(xy 282.575 138.43) (xy 297.815 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef698fb-e82b-468d-9f55-3009f1ccc681")
+	)
+	(wire
+		(pts
+			(xy 286.385 84.455) (xy 300.355 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c5912b-4c82-4510-8e2b-17182294fa53")
+	)
+	(wire
+		(pts
+			(xy 297.815 121.285) (xy 297.815 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336d57c8-b652-4d4d-bfa5-38b4f6304914")
+	)
+	(wire
+		(pts
+			(xy 125.095 57.785) (xy 125.095 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d9c532-f627-486a-8d81-50a1db42e15d")
+	)
+	(wire
+		(pts
+			(xy 273.685 64.135) (xy 266.065 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f70995-2154-4dff-8f94-0fc5056f9822")
+	)
+	(wire
+		(pts
+			(xy 125.095 32.385) (xy 120.015 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecf4a3e-8c54-4d85-a4ec-c0e23e8dc017")
+	)
+	(wire
+		(pts
+			(xy 286.385 64.135) (xy 281.305 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9cc74d-2bb6-455b-a95f-81d116eaa293")
+	)
+	(wire
+		(pts
+			(xy 300.355 55.245) (xy 300.355 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d92d78-09c1-4221-b682-3f02438e72c7")
+	)
+	(wire
+		(pts
+			(xy 125.095 55.245) (xy 125.095 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e6dff7-5924-4433-8039-5ee219361da4")
+	)
+	(wire
+		(pts
+			(xy 283.845 153.035) (xy 283.845 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41646243-6bc2-40b8-856c-6c67190c898d")
+	)
+	(wire
+		(pts
+			(xy 130.175 212.725) (xy 130.175 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c2c577-c665-4665-ad2c-345d96d1f3ec")
+	)
+	(wire
+		(pts
+			(xy 111.125 64.135) (xy 106.045 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450c9f27-4519-4fd5-b99b-43f297ed4617")
+	)
+	(wire
+		(pts
+			(xy 50.165 28.575) (xy 137.795 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f1730d-0d82-4a75-9cc8-85a2e4b38c46")
+	)
+	(wire
+		(pts
+			(xy 125.095 36.83) (xy 125.095 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5c1f0b-a0a7-4141-a5da-2ffe008aab6f")
+	)
+	(wire
+		(pts
+			(xy 307.975 180.975) (xy 362.585 180.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab10b59-feff-4618-b164-1f8fa359d5e8")
+	)
+	(wire
+		(pts
+			(xy 108.585 140.335) (xy 103.505 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506bacfa-441e-485e-8c99-a6df8b2cab2c")
+	)
+	(wire
+		(pts
+			(xy 122.555 160.655) (xy 122.555 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dce5a1-c76f-4c4d-aa46-83174d7be111")
+	)
+	(wire
+		(pts
+			(xy 120.015 226.695) (xy 120.015 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52186802-6936-42b0-8211-94cd62f77fbf")
+	)
+	(wire
+		(pts
+			(xy 211.455 28.575) (xy 211.455 229.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c2fcf2-517a-4ff6-98bb-0f5c44444d54")
+	)
+	(wire
+		(pts
+			(xy 135.255 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d7f7e8-6f0d-4792-86f6-e6a417de42a1")
+	)
+	(wire
+		(pts
+			(xy 107.315 133.985) (xy 122.555 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530bda0d-31c2-40ea-b25f-9d05193c042b")
+	)
+	(wire
+		(pts
+			(xy 120.015 212.725) (xy 120.015 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551da9a6-807b-4820-afd7-edc585d99d6e")
+	)
+	(wire
+		(pts
+			(xy 300.355 69.215) (xy 300.355 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f4d327-3edd-40c5-811d-23da3f649420")
+	)
+	(wire
+		(pts
+			(xy 297.815 117.475) (xy 297.815 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582b246a-621a-48a6-bcc3-ed5d314b299f")
+	)
+	(wire
+		(pts
+			(xy 285.115 36.83) (xy 300.355 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e32b10b-da2a-4050-899a-c27c11bdef52")
+	)
+	(wire
+		(pts
+			(xy 111.125 64.135) (xy 117.475 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f37b643-4c5c-4f96-8287-937b204ec1cc")
+	)
+	(wire
+		(pts
+			(xy 307.975 156.21) (xy 307.975 180.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcfbaf6-fe40-49dc-a7a6-814d698665cc")
+	)
+	(wire
+		(pts
+			(xy 104.775 200.66) (xy 104.775 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605b2fcb-2b99-4050-8b1c-e537f693f686")
+	)
+	(wire
+		(pts
+			(xy 297.815 113.665) (xy 292.735 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e7cf69-95be-4491-a794-f7ea06df215f")
+	)
+	(wire
+		(pts
+			(xy 285.115 57.785) (xy 300.355 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63572d70-c876-463c-b257-2a391d66a9f2")
+	)
+	(wire
+		(pts
+			(xy 297.815 165.735) (xy 297.815 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f238f4-17da-45a6-a87c-22bacf55831a")
+	)
+	(wire
+		(pts
+			(xy 313.055 28.575) (xy 313.055 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9f9c5b-f561-444a-b835-05a4e431722b")
+	)
+	(wire
+		(pts
+			(xy 120.015 189.865) (xy 114.935 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5dae6a-fbbe-41a4-aa09-42e4a01c0572")
+	)
+	(wire
+		(pts
+			(xy 286.385 64.135) (xy 292.735 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9af2a0-1cc6-4790-b07e-8e88707909cb")
+	)
+	(wire
+		(pts
+			(xy 108.585 140.335) (xy 114.935 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70734d64-0d76-46bd-96e3-8c68942c4a3a")
+	)
+	(wire
+		(pts
+			(xy 282.575 131.445) (xy 282.575 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72205363-f453-47c1-b3c4-1c6b010f2b5a")
+	)
+	(wire
+		(pts
+			(xy 122.555 116.205) (xy 122.555 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72702bc6-01f8-470e-9da9-2646abc24d9b")
+	)
+	(wire
+		(pts
+			(xy 286.385 71.755) (xy 286.385 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a920aa-39ea-4313-b600-3ee9b66cb018")
+	)
+	(wire
+		(pts
+			(xy 310.515 72.39) (xy 310.515 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757d8132-d0df-471d-8b48-04d67d62be32")
+	)
+	(wire
+		(pts
+			(xy 285.115 43.18) (xy 285.115 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ebc6c8-83fe-41d9-a38e-703acf8fbcdc")
+	)
+	(wire
+		(pts
+			(xy 107.315 127) (xy 107.315 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77459119-172d-4ecf-9b92-2ceb566cfc2b")
+	)
+	(wire
+		(pts
+			(xy 135.255 73.66) (xy 135.255 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b76b69-d961-4fce-881e-5e50f4c46414")
+	)
+	(wire
+		(pts
+			(xy 300.355 84.455) (xy 300.355 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7803939c-9237-4923-b73e-0723895fbc8b")
+	)
+	(wire
+		(pts
+			(xy 106.045 241.935) (xy 120.015 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7954ad25-8b92-4743-8405-9ddab7991016")
+	)
+	(wire
+		(pts
+			(xy 104.775 194.31) (xy 120.015 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef563f5-207a-49f5-8a6b-31113337512c")
+	)
+	(wire
+		(pts
+			(xy 122.555 108.585) (xy 117.475 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80748bff-31ab-46fb-8e7d-050b24330c20")
+	)
+	(wire
+		(pts
+			(xy 300.355 57.785) (xy 300.355 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e4c571-90fb-4069-b26c-57fffa69bf46")
+	)
+	(wire
+		(pts
+			(xy 132.715 131.445) (xy 132.715 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85636e44-569d-4e39-9ec6-36e5607cd871")
+	)
+	(wire
+		(pts
+			(xy 130.175 215.9) (xy 130.175 229.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88351837-ff23-4aeb-ad38-b25356e78aca")
+	)
+	(wire
+		(pts
+			(xy 283.845 165.735) (xy 297.815 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883ae88e-eb13-4b07-bdce-078216a41321")
+	)
+	(wire
+		(pts
+			(xy 109.855 57.785) (xy 125.095 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90217d89-177d-4f33-a918-272f77ca1f81")
+	)
+	(wire
+		(pts
+			(xy 111.125 79.375) (xy 111.125 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ae9ce6-b3d8-4527-905a-484b435940e5")
+	)
+	(wire
+		(pts
+			(xy 107.315 119.38) (xy 107.315 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f78caaf-259d-4c54-b6e7-2c68e6cc8f9a")
+	)
+	(wire
+		(pts
+			(xy 285.115 50.8) (xy 285.115 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d90b17-742a-4245-aa03-9b54fb079e27")
+	)
+	(wire
+		(pts
+			(xy 300.355 40.005) (xy 300.355 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29f922b-3979-44d3-a380-f17c9e3ece79")
+	)
+	(wire
+		(pts
+			(xy 108.585 155.575) (xy 108.585 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cc1f1d-b302-4134-b5ee-ce18f358c7bc")
+	)
+	(wire
+		(pts
+			(xy 106.045 236.855) (xy 106.045 241.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c4bc9b-c1a8-44e8-ace7-2be48f147428")
+	)
+	(wire
+		(pts
+			(xy 104.775 215.265) (xy 120.015 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f1ed44-d5ff-4ea0-ba0a-ffe3f8828462")
+	)
+	(wire
+		(pts
+			(xy 300.355 32.385) (xy 295.275 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dbed7e-26b7-427c-8dbc-8f57902a6be5")
+	)
+	(wire
+		(pts
+			(xy 297.815 136.525) (xy 297.815 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a936ccec-974d-47ea-821d-6ecea1911ffb")
+	)
+	(wire
+		(pts
+			(xy 98.425 64.135) (xy 90.805 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99ebe95-8f63-4069-af8c-1622b757ccef")
+	)
+	(wire
+		(pts
+			(xy 93.345 221.615) (xy 85.725 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace505cc-286b-4a15-8c21-3ec289972fc3")
+	)
+	(wire
+		(pts
+			(xy 109.855 36.83) (xy 125.095 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeed68b1-d046-4407-afe4-c1adf74a7c40")
+	)
+	(wire
+		(pts
+			(xy 297.815 138.43) (xy 297.815 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af906f47-2549-493f-bea7-70d140950d79")
+	)
+	(wire
+		(pts
+			(xy 307.975 136.525) (xy 307.975 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35d95d3-bed7-4011-9699-43dd4d7c08e2")
+	)
+	(wire
+		(pts
+			(xy 111.125 84.455) (xy 125.095 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b04ff1-86a9-4bd3-9859-e8fcc067d3f7")
+	)
+	(wire
+		(pts
+			(xy 310.515 72.39) (xy 314.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9550d08-8092-458f-a079-bd6e9c11ed90")
+	)
+	(wire
+		(pts
+			(xy 122.555 145.415) (xy 122.555 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd30dbcc-c3cd-4a15-8d92-c89681da7ac2")
+	)
+	(wire
+		(pts
+			(xy 135.255 55.245) (xy 135.255 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02bd8f7-2aa4-4a4e-bb33-0e8d7505d78a")
+	)
+	(wire
+		(pts
+			(xy 310.515 55.245) (xy 310.515 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c489e04b-a3b4-4e8e-b1b7-f430303e2f66")
+	)
+	(wire
+		(pts
+			(xy 104.775 208.28) (xy 104.775 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb050b15-34a7-46b0-ab8c-8a5d91bbc67d")
+	)
+	(wire
+		(pts
+			(xy 125.095 84.455) (xy 125.095 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdce334a-d8a5-4ca3-bb38-e5145c1f6b0d")
+	)
+	(wire
+		(pts
+			(xy 137.795 28.575) (xy 137.795 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1855f0-0d07-443e-83c0-0b79cc070729")
+	)
+	(wire
+		(pts
+			(xy 300.355 36.83) (xy 300.355 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14c99b6-6a55-4826-ba6a-61c0ab904555")
+	)
+	(wire
+		(pts
+			(xy 283.845 145.415) (xy 278.765 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c694e6-ac6e-4320-9216-755a28d3b52a")
+	)
+	(wire
+		(pts
+			(xy 122.555 131.445) (xy 122.555 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31db62f-dc46-446f-869c-6ac57b0f039c")
+	)
+	(wire
+		(pts
+			(xy 111.125 71.755) (xy 111.125 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a87d3b-83ba-4b4c-b2fd-0994f3551c92")
+	)
+	(wire
+		(pts
+			(xy 307.975 156.21) (xy 311.15 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d714dfe9-af48-435d-80e1-db6e1b8f96b5")
+	)
+	(wire
+		(pts
+			(xy 122.555 113.03) (xy 122.555 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c5247c-101d-4bdb-91f0-b2cb76523662")
+	)
+	(wire
+		(pts
+			(xy 125.095 40.005) (xy 125.095 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da268cf8-6ef2-4f76-9a16-db04d287e12e")
+	)
+	(wire
+		(pts
+			(xy 109.855 50.8) (xy 109.855 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e102157e-62b2-4052-8f18-9bd471d33471")
+	)
+	(wire
+		(pts
+			(xy 130.175 215.9) (xy 135.255 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dfee0f-3c6c-406e-bd1a-9e1e527e07f8")
+	)
+	(wire
+		(pts
+			(xy 286.385 79.375) (xy 286.385 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65bbf38-cb08-4bfd-81c9-8ae2cf50b6a5")
+	)
+	(wire
+		(pts
+			(xy 271.145 145.415) (xy 263.525 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e786718a-0596-4678-8963-94e57ea165b9")
+	)
+	(wire
+		(pts
+			(xy 120.015 215.265) (xy 120.015 216.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca545b8-2882-4c08-9d9c-22640d7f9afc")
+	)
+	(wire
+		(pts
+			(xy 106.045 221.615) (xy 100.965 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed924ba-a84d-4f53-8fb1-188fe2128c8f")
+	)
+	(wire
+		(pts
+			(xy 120.015 194.31) (xy 120.015 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4656da7-f031-43ea-baf8-45f813f32079")
+	)
+	(wire
+		(pts
+			(xy 283.845 145.415) (xy 290.195 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cb8ebe-facc-40ad-adae-bf8af1164a75")
+	)
+	(wire
+		(pts
+			(xy 283.845 160.655) (xy 283.845 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa81cc44-9f25-4f91-9374-79e5435469df")
+	)
+	(wire
+		(pts
+			(xy 282.575 123.825) (xy 282.575 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb10c5ef-11b8-432d-83c9-3a9ce0d23b28")
+	)
+	(wire
+		(pts
+			(xy 107.315 113.03) (xy 122.555 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3207ff-8d7b-47d3-828a-84468240d9bd")
+	)
+	(wire
+		(pts
+			(xy 132.715 148.59) (xy 132.715 197.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1ea98c-7c19-4adc-8f4a-da71666b246f")
+	)
+	(text "I hate that I have to do this but rules\nneed an independant system per non-driveable reset"
+		(exclude_from_sim no)
+		(at 248.285 205.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf9001f-2572-4633-b005-4e25f18d922c")
+	)
+	(text "Goes into the tractive system master switch, Provide\npower for AIR relays"
+		(exclude_from_sim no)
+		(at 343.535 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9af9dba4-daf8-40c8-8f02-4d84bc32b8a1")
+	)
+	(text "AMS"
+		(exclude_from_sim no)
+		(at 98.425 123.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf2f8a40-aed9-457e-865a-484c06a17ed3")
+	)
+	(text "PDOC"
+		(exclude_from_sim no)
+		(at 269.875 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c021fbbf-1810-4b69-b273-86a501fa23bb")
+	)
+	(text "Driver Resettable"
+		(exclude_from_sim no)
+		(at 88.265 48.895 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8e641ba-5ba1-4c76-9090-2860697e0afb")
+	)
+	(text "IMD"
+		(exclude_from_sim no)
+		(at 97.155 205.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f331e89d-ea66-4767-944e-df37f20270af")
+	)
+	(text "BSPD"
+		(exclude_from_sim no)
+		(at 275.59 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa106328-527b-4478-a683-dfcbb898caf0")
+	)
+	(hierarchical_label "DRIVER_OUTPUT"
+		(shape input)
+		(at 90.805 64.135 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03f9210a-1d0a-4ea3-bca4-248a27cbb39c")
+	)
+	(hierarchical_label "3.3V_0"
+		(shape input)
+		(at 117.475 108.585 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04c725d3-bb96-4dd1-b44c-0cb6005fe4c8")
+	)
+	(hierarchical_label "Fix_BSPD"
+		(shape input)
+		(at 266.065 64.135 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26d9218d-970c-48f1-b8ae-cbfcd4e50521")
+	)
+	(hierarchical_label "SAFTEY_IN"
+		(shape input)
+		(at 50.165 28.575 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2834d587-7661-4aeb-b36f-2c6b22f861ac")
+	)
+	(hierarchical_label "3.3V_2"
+		(shape input)
+		(at 295.275 32.385 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30a8a390-a410-48ac-b40e-e9e167a77206")
+	)
+	(hierarchical_label "3.3V_PDOC"
+		(shape input)
+		(at 292.735 113.665 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c51201c-0bf1-44d4-8faa-76a77dfc0b42")
+	)
+	(hierarchical_label "Fix_AMS"
+		(shape input)
+		(at 88.265 140.335 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "815b3e43-9b57-4715-b48d-69be19d3891b")
+	)
+	(hierarchical_label "SAFTEY_OUT"
+		(shape input)
+		(at 362.585 180.975 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "910c0027-13df-45dc-82b0-33d5c4770883")
+	)
+	(hierarchical_label "Fix_PDOC"
+		(shape input)
+		(at 263.525 145.415 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "accaba96-4a04-4053-896e-694868edb2de")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 120.015 32.385 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f03cb3-2ff7-4707-a9fb-dcea1ac1d967")
+	)
+	(hierarchical_label "Fix_IMD"
+		(shape input)
+		(at 85.725 221.615 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2849987-57f2-4da8-93d9-bda07d8fa4e1")
+	)
+	(hierarchical_label "3.3V_1"
+		(shape input)
+		(at 114.935 189.865 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebbba7e7-234b-48c4-8dfe-77af3585b4e5")
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 274.955 145.415 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06ffd5c8-12a0-4a24-8a91-47556ec3f3ad")
+		(property "Reference" "R65"
+			(at 274.955 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 274.955 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 274.701 146.431 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 274.955 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.955 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 274.955 142.5448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 274.955 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 274.955 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 274.955 146.685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe7f7cc-3f38-4201-803e-1cf3f9040c21")
+		)
+		(pin "2"
+			(uuid "f66fc442-6559-49f4-92a1-3afaca9de023")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 283.845 156.845 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a03c9ee-2f67-4108-9bbd-41a5108896af")
+		(property "Reference" "R76"
+			(at 285.5722 154.5336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 281.305 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 284.861 157.099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 283.845 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 283.845 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100K"
+			(at 285.5722 159.1564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 283.845 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 283.845 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 285.115 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f600362-d56b-4f71-9ad2-c84bbcc12fa9")
+		)
+		(pin "2"
+			(uuid "d6b79eb4-b643-429a-a3d4-98223de04e02")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.015 245.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11d495ca-25c0-4304-9891-fbd1e2ebebe1")
+		(property "Reference" "#PWR0116"
+			(at 120.015 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.142 250.1392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.015 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.015 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.015 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e6c0cbf-d9ac-4ab6-b9c6-006e31e50f1d")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Diode:1N4148W_RHG")
+		(at 107.315 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15c3836c-0a56-4d5a-b05e-17e076249487")
+		(property "Reference" "D3"
+			(at 109.855 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W RHG"
+			(at 103.505 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+			(at 103.251 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+			(at 103.251 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 103.251 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62142a5f-c431-4dbe-be23-441fa9c83007")
+		)
+		(pin "2"
+			(uuid "6a1b8707-ac32-405f-ab1f-eb76c1e024d5")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor")
+		(at 299.085 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15cbb151-8ccb-4426-a70b-02d58f4b60e4")
+		(property "Reference" "Q9"
+			(at 302.641 62.9666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC816-25HVL"
+			(at 302.641 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+			(at 299.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf"
+			(at 307.975 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.085 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88102f0b-c6b9-4b64-9dbd-d0eff775450f")
+		)
+		(pin "2"
+			(uuid "c93d2c41-745e-4a33-bb76-b80ee45500fb")
+		)
+		(pin "3"
+			(uuid "61fd1702-03c1-45e2-8011-1e7b42f43a32")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Relay:APAN3103")
+		(at 130.175 47.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168f1da5-13a6-4d3c-9932-8836f2946e31")
+		(property "Reference" "K3"
+			(at 142.24 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APAN3103"
+			(at 142.24 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Others:APAN3103"
+			(at 128.905 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+			(at 128.905 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20ea55bf-e67d-4cdc-b586-226fb55ac470")
+		)
+		(pin "2"
+			(uuid "8a5114b9-d9ed-4d55-91bb-dbbc4ae117ab")
+		)
+		(pin "3"
+			(uuid "48400c9d-a373-4224-8f6e-cfb883aeef83")
+		)
+		(pin "4"
+			(uuid "911b2a85-66f7-4b3b-a819-1a7c6d31e42e")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.255 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1838dff4-3983-4ce6-81b0-0dfcf70ae0e9")
+		(property "Reference" "IMD_REL1"
+			(at 137.16 219.837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 137.16 217.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 130.175 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.175 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdf89910-9a03-4975-b0e9-e2f54ebb6274")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "IMD_REL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 99.695 140.335 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20c7eb99-b8c2-40d7-b127-e2a515da47fe")
+		(property "Reference" "R60"
+			(at 99.695 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 99.695 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 99.441 141.351 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 99.695 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 99.695 137.4648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 99.695 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 99.695 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 99.695 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cee093ec-e3fa-4a52-9171-88a01371345c")
+		)
+		(pin "2"
+			(uuid "8bcb85e6-cd54-4e2e-8032-f4166cd2b1ac")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor")
+		(at 121.285 140.335 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21fb7868-7d67-401c-b082-ac0bf8004ea2")
+		(property "Reference" "Q6"
+			(at 124.841 139.1666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC816-25HVL"
+			(at 124.841 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf"
+			(at 130.175 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90402570-89a9-4958-8684-22acbfc0bb80")
+		)
+		(pin "2"
+			(uuid "70a431b5-d08f-4659-9bf0-9e6900da974f")
+		)
+		(pin "3"
+			(uuid "201a359a-663f-459a-92ff-d107e01bbf91")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Diode:1N4148W_RHG")
+		(at 104.775 204.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e5732db-f39e-48df-95e3-844c74771829")
+		(property "Reference" "D9"
+			(at 107.315 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W RHG"
+			(at 100.965 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+			(at 100.711 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+			(at 100.711 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 100.711 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70032685-4f44-4ace-8763-27e78fa52250")
+		)
+		(pin "2"
+			(uuid "4ba6fc62-c60e-41f3-805a-8352818dbdd4")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 122.555 164.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3596eb12-9b3b-4c85-81df-25a43bcd4aa0")
+		(property "Reference" "#PWR0117"
+			(at 122.555 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 122.682 168.8592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.555 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.555 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.555 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39aeaa5b-8caf-4c8f-b544-9394258edc92")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 97.155 221.615 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378a55a4-920f-4e1b-a8d4-dd3ecc8dcdd2")
+		(property "Reference" "R59"
+			(at 97.155 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 97.155 219.075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 96.901 222.631 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 97.155 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 97.155 218.7448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 97.155 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 97.155 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 97.155 222.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d559f987-a5fd-4ef3-a4dd-36587b003699")
+		)
+		(pin "2"
+			(uuid "bfb1208e-982b-48e7-bfb8-a0550c4236f4")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor")
+		(at 296.545 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38ec43a8-619b-422e-894e-cda31f8abcb0")
+		(property "Reference" "Q8"
+			(at 300.101 144.2466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC816-25HVL"
+			(at 300.101 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+			(at 297.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf"
+			(at 305.435 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 296.545 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c3088c-0abe-40db-8949-57c4dffb800c")
+		)
+		(pin "2"
+			(uuid "711b102f-9fec-41e8-a1e4-101323f1ee03")
+		)
+		(pin "3"
+			(uuid "d96d6867-f0ad-4b53-b45d-c44f1065d0d2")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Diode:1N4148W_RHG")
+		(at 285.115 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b5c95e2-3188-43ec-b5a9-9e1c0f74d22b")
+		(property "Reference" "D10"
+			(at 287.655 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W RHG"
+			(at 281.305 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+			(at 281.051 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+			(at 281.051 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 281.051 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c92df7bd-78a8-4b1b-94e9-b41de885cf09")
+		)
+		(pin "2"
+			(uuid "1ecc2302-e5c3-4b57-9f8a-890b46c6b498")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor")
+		(at 123.825 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4291bbb0-1e67-4147-af70-bd244c78d9f2")
+		(property "Reference" "Q7"
+			(at 127.381 62.9666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC816-25HVL"
+			(at 127.381 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf"
+			(at 132.715 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.825 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79ea5424-f94b-4d0f-884e-04f9b876ec49")
+		)
+		(pin "2"
+			(uuid "85260c10-2327-4a27-ab51-168efc769052")
+		)
+		(pin "3"
+			(uuid "6ff15a86-212b-46ef-b044-46ad09791b1f")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 311.15 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50d0acdc-9955-4b7d-8aa0-b2d1fe44a1c7")
+		(property "Reference" "PDOC_REL1"
+			(at 313.055 160.147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 313.055 157.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56f10d12-3b21-4441-befe-37d27343aa8a")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "PDOC_REL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 300.355 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5622cbb1-3b0f-4e30-99ba-11bd0c0ac367")
+		(property "Reference" "#PWR0129"
+			(at 300.355 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 300.482 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.355 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.355 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 300.355 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6104da0-c4ac-4035-bbe1-7bfb745fc360")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67ef6182-9473-451c-859d-4de41e3379bd")
+		(property "Reference" "DRV_OUT_REL1"
+			(at 141.605 77.597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.605 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c139aab2-3da0-4c60-8a23-044989def685")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "DRV_OUT_REL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 314.96 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a596542-c571-45f4-be12-5eda112a2b19")
+		(property "Reference" "BSPD_REL1"
+			(at 316.865 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 316.865 73.787 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 309.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b8d0b4-d109-42b0-9e41-bfb9b8ae4a18")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "BSPD_REL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 136.525 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b2a54f0-6e74-4bd2-8adb-14c0be06b9bc")
+		(property "Reference" "AMS_REL1"
+			(at 138.43 152.527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 138.43 149.987 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 131.445 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.445 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "862a576c-834a-48b7-9a5e-7fc22bf8cc37")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "AMS_REL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 106.045 233.045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73b8ab05-9da2-4b2d-a3ac-2c1f8f26eecc")
+		(property "Reference" "R62"
+			(at 107.7722 230.7336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 103.505 233.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 107.061 233.299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 106.045 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.045 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100K"
+			(at 107.7722 235.3564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 106.045 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 106.045 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 107.315 233.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4175393a-522c-47a4-9bd7-3cb802bb88d2")
+		)
+		(pin "2"
+			(uuid "3a34029b-0ee4-4ea2-b306-c23c67a46830")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.095 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f2f6cce-62e4-49d9-965c-e2e72ddccabb")
+		(property "Reference" "#PWR0118"
+			(at 125.095 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.222 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.095 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9d2bf3-37c1-4644-95b5-f73bf45191b0")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Relay:APAN3103")
+		(at 125.095 205.105 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "819523e7-9d88-4246-b40a-a7fcb491aaba")
+		(property "Reference" "K1"
+			(at 137.16 203.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APAN3103"
+			(at 137.16 206.3749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Others:APAN3103"
+			(at 123.825 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+			(at 123.825 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 205.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a3ad6b-a7e9-4abe-ada6-42d857115432")
+		)
+		(pin "2"
+			(uuid "68df33fb-3ae3-47b2-b77c-a1f559e805eb")
+		)
+		(pin "3"
+			(uuid "a35a91db-743d-45e3-ae7f-8dc36f6c844e")
+		)
+		(pin "4"
+			(uuid "92799837-fdc8-4447-ad8d-1f8558db0b15")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Safety-Circuit-rescue:BC816-25HVL-UniSA_Motorsport_Transistor")
+		(at 118.745 221.615 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6803119-5b4a-4004-941c-49b615977105")
+		(property "Reference" "Q5"
+			(at 122.301 220.4466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC816-25HVL"
+			(at 122.301 222.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_SOT_TO:SOT-23-3"
+			(at 119.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/916/BC816H_SER-1839928.pdf"
+			(at 127.635 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe7fbb4-c09d-429b-a095-16cba807744d")
+		)
+		(pin "2"
+			(uuid "7b15e488-0379-48b5-9064-4a788da40ae2")
+		)
+		(pin "3"
+			(uuid "510dde10-bc8d-403b-a1c5-d9c29f804d89")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Relay:APAN3103")
+		(at 305.435 47.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa3bd9ee-bdd8-4653-b9f6-4666e7b199dc")
+		(property "Reference" "K5"
+			(at 317.5 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APAN3103"
+			(at 317.5 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Others:APAN3103"
+			(at 304.165 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+			(at 304.165 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 305.435 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "323b1216-5dbb-4fc5-9120-89f4789e3fb5")
+		)
+		(pin "2"
+			(uuid "45e50ff7-9225-4baf-b177-c79a91703e69")
+		)
+		(pin "3"
+			(uuid "6714e7e8-a201-47c2-b5ac-2af4ab39644d")
+		)
+		(pin "4"
+			(uuid "a176f641-6abe-44b6-96bc-eeba033bdee0")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 102.235 64.135 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afae2592-f559-49db-8faf-39c2904be8c6")
+		(property "Reference" "R61"
+			(at 102.235 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 102.235 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 101.981 65.151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 102.235 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.235 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 102.235 61.2648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 102.235 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 102.235 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 102.235 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705db908-99a4-499b-b88d-b75386c82988")
+		)
+		(pin "2"
+			(uuid "8f11a7a8-6f95-4327-be1d-9e65f22cd573")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Relay:APAN3103")
+		(at 127.635 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77cc399-6b67-4581-b266-21bbb690ffc5")
+		(property "Reference" "K2"
+			(at 139.7 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APAN3103"
+			(at 139.7 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Others:APAN3103"
+			(at 126.365 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+			(at 126.365 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d1eb43-f7bc-4345-910f-2fe9e59bdd25")
+		)
+		(pin "2"
+			(uuid "abac7336-05f9-435b-8a76-9cd336d71bef")
+		)
+		(pin "3"
+			(uuid "452fd2df-6e12-48a9-99fd-ed566a0634ff")
+		)
+		(pin "4"
+			(uuid "4afa02fb-cd8b-431c-be24-556df265c20c")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Diode:1N4148W_RHG")
+		(at 109.855 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8ec5b57-32dd-4273-be79-78a75d422578")
+		(property "Reference" "D2"
+			(at 112.395 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W RHG"
+			(at 106.045 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+			(at 105.791 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+			(at 105.791 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 105.791 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41bc65b-efd9-456b-a45a-3c33b8438df2")
+		)
+		(pin "2"
+			(uuid "96936808-43d3-41e0-9600-699f95556a31")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 111.125 75.565 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0f2cb4f-f999-4460-a128-660ded5e192d")
+		(property "Reference" "R64"
+			(at 112.8522 73.2536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 108.585 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 112.141 75.819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 111.125 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.125 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100K"
+			(at 112.8522 77.8764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 111.125 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 111.125 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 112.395 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb597c9f-b4e0-4f55-8871-80fc3fe562e5")
+		)
+		(pin "2"
+			(uuid "45345f79-e6a4-48d6-9dc4-256b4a88a912")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.815 169.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ebb1fb-a398-419a-a934-4742dee56549")
+		(property "Reference" "#PWR0119"
+			(at 297.815 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.942 173.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.815 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.815 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.815 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2004921-9502-433c-b6f7-fb7a5be05d5c")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 286.385 75.565 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8514640-df73-4809-8a77-b554bcdd7724")
+		(property "Reference" "R77"
+			(at 288.1122 73.2536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 283.845 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 287.401 75.819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 286.385 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 286.385 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100K"
+			(at 288.1122 77.8764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 286.385 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 286.385 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 287.655 75.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49d24a0b-e4fd-4180-902e-85dcf118c8f5")
+		)
+		(pin "2"
+			(uuid "2b894e7d-b5a2-4ccf-8694-4e65ed999e59")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 108.585 151.765 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba46d3a-a5be-43d1-ac4a-3cda21372763")
+		(property "Reference" "R63"
+			(at 110.3122 149.4536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 106.045 151.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 109.601 152.019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 108.585 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 108.585 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "100K"
+			(at 110.3122 154.0764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 108.585 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 108.585 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 109.855 151.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d47bd543-7d72-45c1-a6b7-7eda79e86fad")
+		)
+		(pin "2"
+			(uuid "19a29e85-e414-4b63-9fcf-b555d55254fb")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Relay:APAN3103")
+		(at 302.895 128.905 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2d871ee-135f-4f6b-b96b-2f0a628f27ac")
+		(property "Reference" "K4"
+			(at 314.96 127.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APAN3103"
+			(at 314.96 130.1749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Others:APAN3103"
+			(at 301.625 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/apan3103-panasonic-73741787?r=sp"
+			(at 301.625 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 302.895 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32b9f582-9be8-4bfa-b667-cf0f15a3c2fb")
+		)
+		(pin "2"
+			(uuid "e1a81ee9-cfbc-4917-87ca-122c75ec6440")
+		)
+		(pin "3"
+			(uuid "861cc76a-3661-4832-981f-60c2199cb882")
+		)
+		(pin "4"
+			(uuid "7e34cba5-fd8b-4477-938b-163ca4c2f542")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Diode:1N4148W_RHG")
+		(at 282.575 127.635 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2f64fad-2be8-4654-99af-387fa6b37cd7")
+		(property "Reference" "D11"
+			(at 284.48 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W RHG"
+			(at 278.765 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Diode:SOD-123F-2"
+			(at 278.511 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/ProductDetail/Taiwan-Semiconductor/1N4148W-RHG?qs=KwaGCOX4wIag2YPLXylAvA%3D%3D"
+			(at 278.511 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flyback diode"
+			(at 278.511 127.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db99715-3712-46cb-be7b-2b6ad42b7fcd")
+		)
+		(pin "2"
+			(uuid "bd437405-489a-4be0-8ea4-098a3c159855")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UniSA_Motorsport_Resistor:CRCW0805")
+		(at 277.495 64.135 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd6cb979-888a-4471-bcc5-a6197dda218f")
+		(property "Reference" "R66"
+			(at 277.495 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW0805"
+			(at 277.495 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UniSA_Motorsport_Resistor:0805"
+			(at 277.241 65.151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"
+			(at 277.495 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 277.495 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10K"
+			(at 277.495 61.2648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "150V"
+			(at 277.495 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "125mW"
+			(at 277.495 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E24 Values" "http://www.ohmslawcalculator.com/e24-resistor-sizes"
+			(at 277.495 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a55a4825-7e0c-471f-a0ad-587b4f693ccd")
+		)
+		(pin "2"
+			(uuid "80149c47-7046-4221-a386-d31284a20f57")
+		)
+		(instances
+			(project "shutdownPCB"
+				(path "/10a46332-856e-4251-a58d-95ea78b7128a/6d614766-7062-4718-bc42-7fed3a6827aa"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+			(project "Safety Circuit"
+				(path "/e97b5984-9f0f-43a4-9b8a-838eef4cceb2/00000000-0000-0000-0000-00005e39602c"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
